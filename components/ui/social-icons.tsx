@@ -1,3 +1,4 @@
+import React from 'react'
 import { Linkedin, Github, Instagram, Mail } from 'lucide-react'
 
 type IconProps = { className?: string; strokeWidth?: number }
@@ -15,7 +16,7 @@ function WhatsAppIcon({ className }: IconProps) {
   )
 }
 
-const map: Record<string, (props: IconProps) => JSX.Element> = {
+const map: Record<string, (props: IconProps) => React.ReactElement> = {
   linkedin: (p) => <Linkedin {...p} />,
   github: (p) => <Github {...p} />,
   instagram: (p) => <Instagram {...p} />,
