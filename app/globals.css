@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+  /* cord.com palette */
+  --color-bg: #ffffff;
+  --color-bg-subtle: #e6f1fa;
+  --color-bg-blue: #e6f1fa;
+  --color-surface: #ffffff;
+  --color-border: #dde7ee;
+  --color-border-strong: #c8d8e4;
+
+  --color-fg: #0b3658;
+  --color-fg-muted: #486984;
+  --color-fg-subtle: #688dac;
+
+  --color-primary: #4e9ad9;
+  --color-primary-dark: #3a87c8;
+  --color-sky: #4e9ad9;
+  --color-sky-deep: #0c3d64;
+  --color-ice: #e6f1fa;
+  --color-ink: #0b3658;
+
+  --shadow-card: rgba(11, 54, 88, 0.08) 0px 4px 32px 0px;
+  --shadow-card-hover: rgba(11, 54, 88, 0.08) 0px 12px 48px 0px;
+  --shadow-float: rgba(11, 54, 88, 0.08) 0px 12px 48px 0px;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(78, 154, 217, 0.18);
+  color: var(--color-ink);
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+  border: 3px solid var(--color-bg-subtle);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Subtle dotted grid used as decorative texture */
+.dot-grid {
+  background-image: radial-gradient(circle, #cbd5e1 1px, transparent 1px);
+  background-size: 16px 16px;
+}
