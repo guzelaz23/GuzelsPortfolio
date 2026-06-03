@@ -3,8 +3,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { ArrowRight, Download } from 'lucide-react'
-import { site, socials } from '@/data/site'
-import { SocialIcon } from '@/components/ui/social-icons'
+import { site } from '@/data/site'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -80,45 +79,29 @@ export function Hero() {
       {/* Bottom overlay — CTA above, name/role below */}
       <div className="absolute inset-x-0 bottom-0 z-30 flex flex-col gap-3 px-8 pb-7 md:px-14">
 
-        {/* Social + CTA — centered */}
+        {/* CTA — centered */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.85, ease }}
-          className="flex flex-col items-center gap-3"
+          className="flex items-center justify-center gap-3"
         >
-          <div className="flex items-center gap-2">
-            {socials.map((s) => (
-              <a
-                key={s.label}
-                href={s.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={s.label}
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-bg-blue text-primary transition-all hover:-translate-y-0.5 hover:bg-primary hover:text-white"
-              >
-                <SocialIcon name={s.icon} className="h-4 w-4" />
-              </a>
-            ))}
-          </div>
-          <div className="flex items-center gap-3">
-            <a
-              href="/projects"
-              className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_-10px_rgba(78,154,217,0.6)] transition-all hover:-translate-y-0.5 hover:bg-primary-dark"
-            >
-              View My Work
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-            </a>
-            <a
-              href={site.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 rounded-xl border border-border-strong bg-white px-5 py-2.5 text-sm font-semibold text-fg transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:text-primary hover:shadow-card"
-            >
-              Download CV
-              <Download className="h-4 w-4" />
-            </a>
-          </div>
+          <a
+            href="/projects"
+            className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_-10px_rgba(78,154,217,0.6)] transition-all hover:-translate-y-0.5 hover:bg-primary-dark"
+          >
+            View My Work
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+          </a>
+          <a
+            href={site.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 rounded-xl border border-border-strong bg-white px-5 py-2.5 text-sm font-semibold text-fg transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:text-primary hover:shadow-card"
+          >
+            Download CV
+            <Download className="h-4 w-4" />
+          </a>
         </motion.div>
 
         {/* Name row */}

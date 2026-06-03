@@ -75,7 +75,7 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div className="overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-bg-blue to-white p-1 shadow-card">
                 <Image
-                  src="/profile.jpg"
+                  src="/GoogleGuzel.jpeg"
                   alt={site.name}
                   width={400}
                   height={500}
