@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react'
-import { BarChart3, LineChart, PieChart, Lightbulb } from 'lucide-react'
+import { BarChart3, Network, PieChart, Lightbulb } from 'lucide-react'
 
 export type Service = {
   title: string
@@ -14,9 +14,9 @@ export const services: Service[] = [
     icon: BarChart3,
   },
   {
-    title: 'Business Intelligence',
-    description: 'Creating dashboards and reports for data-driven decisions.',
-    icon: LineChart,
+    title: 'System Analysis',
+    description: 'Mapping processes, modeling systems, and designing solutions that fit how organizations actually work.',
+    icon: Network,
   },
   {
     title: 'Data Visualization',

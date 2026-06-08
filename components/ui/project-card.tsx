@@ -63,6 +63,11 @@ export function ProjectCard({
             Featured
           </span>
         )}
+        {project.badge && (
+          <span className="absolute left-3 top-3 rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
+            {project.badge}
+          </span>
+        )}
       </div>
 
       {/* body */}

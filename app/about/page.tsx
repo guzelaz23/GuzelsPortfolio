@@ -10,7 +10,7 @@ import { FadeIn, Stagger, StaggerItem } from '@/components/motion/reveal'
 
 export const metadata: Metadata = {
   title: 'About',
-  description: `About ${site.name} — an Information Systems student and aspiring data analyst.`,
+  description: `About ${site.name}, an Information Systems student focused on data analytics, systems, and product.`,
 }
 
 export default function AboutPage() {
@@ -23,10 +23,10 @@ export default function AboutPage() {
           <FadeIn delay={0.1}>
             <div className="space-y-5 text-lg leading-relaxed text-fg-muted text-pretty">
               <p>
-                I&rsquo;m {site.name}, an Information Systems student who enjoys
-                living at the intersection of business, technology, and data. I
-                describe myself as an aspiring data analyst and BI enthusiast. I
-                love turning raw numbers into stories and decisions.
+                I&rsquo;m {site.name}, an Information Systems student working across
+                data analytics, system analysis, and product development. I build
+                solutions at the intersection of technology and business, turning
+                raw information into decisions that matter.
               </p>
               <p>
                 I care about understanding how organizations actually work,

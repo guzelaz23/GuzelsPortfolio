@@ -20,7 +20,7 @@ export default function ContactPage() {
             <PageHeader
               label="Contact"
               title="Let's build something meaningful."
-              description="I'm actively looking for internship and early-career opportunities in data analytics, business intelligence, product, and systems. Whether it's a role, a project, or just a conversation, I'd love to hear from you."
+              description="I'm actively looking for internship and early-career opportunities in data analytics, system analysis, product management, and business analysis. Whether it's a role, a project, or just a conversation, I'd love to hear from you."
             />
             <div className="mt-10 flex flex-wrap gap-3">
               <a

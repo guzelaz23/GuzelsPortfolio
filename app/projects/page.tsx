@@ -8,7 +8,7 @@ import { PageTransition } from '@/components/motion/page-transition'
 export const metadata: Metadata = {
   title: 'Projects',
   description:
-    'Selected projects across system analysis, business intelligence, data analytics, and product.',
+    'Selected projects across data analytics, system analysis, and product management.',
 }
 
 export default function ProjectsPage() {

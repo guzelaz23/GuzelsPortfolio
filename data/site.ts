@@ -3,15 +3,15 @@ export const site = {
   shortName: 'Ryantinisa',
   initials: 'RG',
   role: 'Information Systems Student',
-  tagline: 'Aspiring Data Analyst & BI Enthusiast',
+  tagline: 'Data Analytics · System Analysis · Product',
   headline: 'Turning Data Into Meaningful Decisions.',
   description:
-    'Passionate about technology, data, and business. I enjoy turning information into meaningful solutions that create real impact.',
+    'MIS undergraduate at President University building data-driven applications, business systems, and digital products. Open to internships in Data Analytics, System Analysis, and Product Management.',
   url: 'https://ryantinisa.com',
   locale: 'en_US',
   location: 'Indonesia',
   email: 'rguzelazkia@gmail.com', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=rguzelazkia@gmail.com',
-  resumeUrl: '/Ryantinisa-Guzelazkia-CV.pdf',
+  resumeUrl: '/Ryantinisa_Guzelazkia_General_2026.pdf',
 } as const
 
 export const socials = [
@@ -48,7 +48,7 @@ export const nav = [
 ] as const
 
 export const stats = [
-  { value: '10+', label: 'Projects' },
+  { value: '5+', label: 'Projects' },
   { value: '15+', label: 'Tools' },
   { value: '1+', label: 'Years' },
 ] as const

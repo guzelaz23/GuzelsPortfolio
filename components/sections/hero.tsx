@@ -128,7 +128,7 @@ export function Hero() {
             className="text-right"
           >
             <p className="font-bold uppercase tracking-widest text-primary" style={{ fontSize: 'clamp(0.55rem, 1.1vw, 0.82rem)' }}>
-              DATA ANALYST<br />&amp; BI ENTHUSIAST
+              DATA ANALYTICS<br />SYSTEMS &amp; PRODUCT
             </p>
           </motion.div>
         </div>

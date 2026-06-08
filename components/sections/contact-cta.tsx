@@ -16,7 +16,7 @@ export function ContactCTA() {
               </h2>
               <p className="mx-auto mt-5 max-w-lg leading-relaxed text-white/80 text-pretty">
                 I&rsquo;m open to internship and early-career opportunities in
-                data analytics, business intelligence, product, and systems.
+                data analytics, system analysis, and product management.
               </p>
               <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
                 <a
