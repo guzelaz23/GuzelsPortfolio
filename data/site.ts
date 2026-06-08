@@ -11,7 +11,7 @@ export const site = {
   locale: 'en_US',
   location: 'Indonesia',
   email: 'rguzelazkia@gmail.com', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=rguzelazkia@gmail.com',
-  resumeUrl: '/Ryantinisa_Guzelazkia_General_2026.pdf',
+  resumeUrl: '/Guzel_CV_General1.pdf',
 } as const
 
 export const socials = [
