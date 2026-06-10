@@ -1,7 +1,7 @@
 # Ryantinisa Guzelazkia — Portfolio
 
 A clean, professional, light-mode portfolio for **Ryantinisa Guzelazkia**,
-Information Systems student and **Aspiring Data Analyst & BI Enthusiast**.
+Information Systems student focused on **Data Analytics · System Analysis · Product**.
 
 Built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS v4**, and
 **Framer Motion**. No backend, database, CMS, or auth.

@@ -38,4 +38,8 @@ export const techStack: Tech[] = [
   { name: 'React', brand: 'react' },
   { name: 'Next.js', brand: 'nextjs' },
   { name: 'TypeScript', brand: 'typescript' },
+  { name: 'Django', brand: 'django' },
+  { name: 'Laravel', brand: 'laravel' },
+  { name: 'PHP', brand: 'php' },
+  { name: 'PostgreSQL', brand: 'postgresql' },
 ]

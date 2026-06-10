@@ -31,12 +31,12 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    role: 'Team Lead',
-    organization: 'StudentsCatalyst National Batch 6',
-    period: 'Nov 2025 – Present',
+    role: 'StudentsCatalyst National Batch 6',
+    organization: 'Student · Team Lead of IdeAct Consulting Project',
+    period: 'Nov 2025 – Jun 2026',
     logo: '/StudentsCatalystLogo.jpg',
     summary:
-      'Selected among 150 participants nationwide and leading collaborative initiatives focused on personal growth and leadership development.',
+      'Selected among 150 students nationwide from thousands of applicants for StudentsCatalyst National Batch 6. Led a consulting team for IdeAct, a real client consulting project focused on business problem analysis and solution design. Recognized as Top 25 Students of Batch 6 upon graduation.',
     highlights: [
       'Selected from thousands of applicants',
       'Led collaborative student initiatives',

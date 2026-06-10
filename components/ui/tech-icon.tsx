@@ -83,4 +83,36 @@ const icons: Record<string, (p: IconProps) => ReactElement> = {
       </text>
     </svg>
   ),
+  django: ({ className }) => (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
+      <rect width="24" height="24" rx="4" fill="#092E20" />
+      <text x="50%" y="58%" textAnchor="middle" dominantBaseline="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="10" fill="#fff">
+        Dj
+      </text>
+    </svg>
+  ),
+  laravel: ({ className }) => (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
+      <rect width="24" height="24" rx="4" fill="#FF2D20" />
+      <text x="50%" y="58%" textAnchor="middle" dominantBaseline="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="10" fill="#fff">
+        Lv
+      </text>
+    </svg>
+  ),
+  php: ({ className }) => (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
+      <rect width="24" height="24" rx="4" fill="#777BB4" />
+      <text x="50%" y="58%" textAnchor="middle" dominantBaseline="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="9" fill="#fff">
+        php
+      </text>
+    </svg>
+  ),
+  postgresql: ({ className }) => (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
+      <rect width="24" height="24" rx="4" fill="#336791" />
+      <text x="50%" y="58%" textAnchor="middle" dominantBaseline="middle" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="10" fill="#fff">
+        Pg
+      </text>
+    </svg>
+  ),
 }

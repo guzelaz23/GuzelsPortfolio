@@ -2,7 +2,7 @@
   "name": "ryantinisa-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Personal portfolio for Ryantinisa Guzelazkia — Aspiring Data Analyst & BI Enthusiast.",
+  "description": "Personal portfolio for Ryantinisa Guzelazkia. Data Analytics · System Analysis · Product.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -137,7 +137,6 @@ export const projects: Project[] = [
     featured: true,
     visual: 'mobile',
     image: '/projects/jira.png',
-    githubUrl: 'https://github.com/guzelaz23/AKSES',
   },
   {
     slug: 'akses-platform',
