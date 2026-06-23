@@ -6,7 +6,7 @@ export type SkillGroup = {
 export const skillGroups: SkillGroup[] = [
   {
     category: 'Data & Analytics',
-    skills: ['SQL', 'Excel', 'Power BI', 'Tableau', 'Python'],
+    skills: ['SQL', 'Excel', 'Power BI', 'Python'],
   },
   {
     category: 'Product / Business / Systems',
@@ -33,7 +33,6 @@ export const techStack: Tech[] = [
   { name: 'SQL', brand: 'sql' },
   { name: 'Power BI', brand: 'powerbi' },
   { name: 'Excel', brand: 'excel' },
-  { name: 'Tableau', brand: 'tableau' },
   { name: 'JavaScript', brand: 'javascript' },
   { name: 'React', brand: 'react' },
   { name: 'Next.js', brand: 'nextjs' },

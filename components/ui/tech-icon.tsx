@@ -43,13 +43,7 @@ const icons: Record<string, (p: IconProps) => ReactElement> = {
       <path d="M8 8l8 8M16 8l-8 8" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" />
     </svg>
   ),
-  tableau: ({ className }) => (
-    <svg viewBox="0 0 24 24" className={className} aria-hidden="true" stroke="#1F4E79" strokeWidth="1.6" strokeLinecap="round">
-      <path d="M12 3v18M3 12h18" />
-      <path d="M7 7v6M17 11v6" stroke="#E8762D" />
-      <path d="M12 6v3M12 15v3" />
-    </svg>
-  ),
+
   javascript: ({ className }) => (
     <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
       <rect width="24" height="24" rx="4" fill="#F7DF1E" />
